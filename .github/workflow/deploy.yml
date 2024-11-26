@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version: '22.10.0'  # 使用Node.js版本14
+        node-version: '22.10.0'  # 使用Node.js版本
 
     - name: Install dependencies
       run: npm ci  # 安装依赖
